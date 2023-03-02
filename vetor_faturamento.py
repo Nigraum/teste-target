@@ -11,7 +11,7 @@ maxValue = df['valor'].max()
 daysAboveAvg = (df['valor'] > avgMonth).sum()
 
 
-print(f'Menor valor de faturamento: R$ {lowerValue}:.2f')
-print(f'Maior valor de faturamento: R$ {maxValue}:.2f')
+print(f'Menor valor de faturamento: R$ {lowerValue:.2f}')
+print(f'Maior valor de faturamento: R$ {maxValue:.2f}')
 print(
     f'Número de dias que o faturamento foi superior a média mensal: {daysAboveAvg}')
